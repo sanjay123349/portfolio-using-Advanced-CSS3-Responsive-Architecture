@@ -1,0 +1,228 @@
+/*=========================================
+  VARIABLES.CSS
+  Advanced CSS3 Portfolio
+==========================================*/
+
+/*========== Light Theme ==========*/
+:root {
+
+  /* Colors */
+  --primary-color: #2563eb;
+  --primary-light: #3b82f6;
+  --primary-dark: #1d4ed8;
+
+  --secondary-color: #14b8a6;
+  --accent-color: #f59e0b;
+
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --danger-color: #ef4444;
+
+  /* Backgrounds */
+  --bg-color: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+
+  /* Text */
+  --text-color: #1e293b;
+  --text-light: #64748b;
+  --text-white: #ffffff;
+
+  /* Borders */
+  --border-color: #e2e8f0;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 5px rgba(0,0,0,.08);
+  --shadow-md: 0 8px 20px rgba(0,0,0,.12);
+  --shadow-lg: 0 20px 45px rgba(0,0,0,.18);
+
+  /* Glass Effect */
+  --glass-bg: rgba(255,255,255,.65);
+  --glass-border: rgba(255,255,255,.25);
+
+  /* Gradients */
+  --gradient-primary:
+      linear-gradient(135deg,#2563eb,#3b82f6);
+
+  --gradient-secondary:
+      linear-gradient(135deg,#14b8a6,#0ea5e9);
+
+  --gradient-hero:
+      linear-gradient(135deg,#2563eb,#7c3aed);
+
+  /* Font */
+  --font-family:
+      "Poppins",
+      "Segoe UI",
+      sans-serif;
+
+  /* Font Size */
+  --fs-xs: .75rem;
+  --fs-sm: .875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 2.8rem;
+  --fs-4xl: 4rem;
+
+  /* Font Weight */
+  --fw-light:300;
+  --fw-normal:400;
+  --fw-medium:500;
+  --fw-semibold:600;
+  --fw-bold:700;
+
+  /* Spacing */
+  --space-xs:.25rem;
+  --space-sm:.5rem;
+  --space-md:1rem;
+  --space-lg:1.5rem;
+  --space-xl:2rem;
+  --space-2xl:3rem;
+  --space-3xl:5rem;
+
+  /* Radius */
+  --radius-sm:6px;
+  --radius-md:10px;
+  --radius-lg:18px;
+  --radius-xl:25px;
+  --radius-round:50%;
+
+  /* Transition */
+  --transition-fast:.25s ease;
+  --transition:.35s ease;
+  --transition-slow:.5s ease;
+
+  /* Navbar */
+  --nav-height:80px;
+
+  /* Container */
+  --container-width:1200px;
+
+}
+
+/*========== Dark Theme ==========*/
+
+body.dark-theme{
+
+  --bg-color:#0f172a;
+  --bg-secondary:#111827;
+  --bg-card:#1e293b;
+
+  --text-color:#f8fafc;
+  --text-light:#cbd5e1;
+  --text-white:#ffffff;
+
+  --border-color:#334155;
+
+  --glass-bg:rgba(30,41,59,.65);
+  --glass-border:rgba(255,255,255,.08);
+
+  --shadow-sm:0 3px 8px rgba(0,0,0,.45);
+  --shadow-md:0 12px 25px rgba(0,0,0,.55);
+  --shadow-lg:0 20px 50px rgba(0,0,0,.70);
+
+}
+
+/*========== Z Index ==========*/
+
+:root{
+
+  --z-preloader:9999;
+  --z-fixed:1000;
+  --z-navbar:900;
+  --z-dropdown:850;
+  --z-tooltip:950;
+
+}
+
+/*========== Buttons ==========*/
+
+:root{
+
+  --btn-padding:
+      14px 28px;
+
+  --btn-radius:
+      50px;
+
+}
+
+/*========== Cards ==========*/
+
+:root{
+
+  --card-padding:30px;
+
+  --card-radius:20px;
+
+}
+
+/*========== Images ==========*/
+
+:root{
+
+  --img-radius:18px;
+
+}
+
+/*========== Blur ==========*/
+
+:root{
+
+  --blur:18px;
+
+}
+
+/*========== Hero ==========*/
+
+:root{
+
+  --hero-height:100vh;
+
+}
+
+/*========== Progress Bar ==========*/
+
+:root{
+
+  --progress-height:10px;
+
+}
+
+/*========== Scroll ==========*/
+
+:root{
+
+  --scroll-width:10px;
+
+}
+
+/*========== Scrollbar ==========*/
+
+::-webkit-scrollbar{
+
+  width:var(--scroll-width);
+
+}
+
+::-webkit-scrollbar-track{
+
+  background:var(--bg-secondary);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+  background:var(--primary-color);
+
+  border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+  background:var(--primary-dark);
+
+}
